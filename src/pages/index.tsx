@@ -58,7 +58,7 @@ export default function Home({dirs}:Props) {
                         type="submit"
                         disabled={uploading}
                         style={{ opacity: uploading ? ".5" : 1 }}
-                        className={"bg-red-600 p-3 w-32 text-center rounded text-white"}
+                        className={"bg-blue-600 p-3 w-32 text-center rounded text-white"}
                     >
                         {uploading ? "Enviado..." : "Enviado"}
                     </button>
